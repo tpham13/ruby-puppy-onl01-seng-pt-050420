@@ -23,7 +23,7 @@ class Dog
     puts name 
   end 
   
-  def save            
+  def save            #unclear of this method purpose and why we need to change the initialize method 
     @@all << self
   end
  
